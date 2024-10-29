@@ -1,6 +1,6 @@
 # Make It Real - NAME OF THE PROJECT
 
-This is a solution to the **\_\_\_** project of the Make It Real course.
+This is a solution to the **My-Team-Page** project of the Make It Real course.
 
 ## Table of contents
 
