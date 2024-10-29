@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.intro h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.intro p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.member img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.member h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.role {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 0.9rem;
+  color: #555;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .team {
+    grid-template-columns: 1fr;
+  }
+}
