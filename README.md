@@ -1,4 +1,4 @@
-# Make It Real - NAME OF THE PROJECT
+# Make It Real - My-Team-Page
 
 This is a solution to the **My-Team-Page** project of the Make It Real course.
 
